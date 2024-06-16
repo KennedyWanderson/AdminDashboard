@@ -1,9 +1,8 @@
-import Layout from "@/components/Layout";
 
 export default function Home() {
   return (
     <Layout>
-      Content
+      <h3>Conteúdo!!!!</h3>
     </Layout>
   )
 }
