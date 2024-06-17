@@ -28,7 +28,7 @@ export default function Header({ titulo, subtitulo }) {
                         type={'text'}
 
                         className={`
-                    px-4 py-2 rounded-full text-black bg-gray-200
+                    px-4 py-2 rounded-full bg-gray-900
                     border focus:border-purple-500 focus:bg-white
                     focus:outline-none
                 `}

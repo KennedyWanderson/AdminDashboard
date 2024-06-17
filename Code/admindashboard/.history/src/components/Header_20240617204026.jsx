@@ -24,19 +24,19 @@ export default function Header({ titulo, subtitulo }) {
 
                     
 
-                    <input
-                        type={'text'}
+<input
+    type={'text'}
 
-                        className={`
-                    px-4 py-2 rounded-full text-black bg-gray-200
-                    border focus:border-purple-500 focus:bg-white
-                    focus:outline-none
-                `}
-                    />
-                    {IconeSearch}
-                </div>
+    className={`
+px-4 py-2 rounded-lg bg-gray-200
+border focus:border-blue-500 focus:bg-white
+focus:outline-none
+`}
+/>
+{IconeSearch}
+</div>
             <div className={`flex flex-grow justify-end items-center gap-8`}>
-                
+
                 {IconeSino}
                 <AvatarUsuario />
             </div>
