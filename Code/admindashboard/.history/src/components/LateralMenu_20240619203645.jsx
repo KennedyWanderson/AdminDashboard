@@ -9,7 +9,7 @@ export default function LateralMenu() {
 
     return (
         <aside className={`
-            flex flex-col items-center
+            flex flex-col 
             bg-gray-200 text-gray-700
             dark:bg-gray-900
         `}>

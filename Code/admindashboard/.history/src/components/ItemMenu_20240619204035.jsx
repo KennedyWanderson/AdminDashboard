@@ -4,7 +4,7 @@ export default function MenuItem({ texto, icone, url, className, onClick }) {
         return (
             <div className={`
                 flex justify-center items-center
-                h-20 w-56 gap-4
+                h-20 w-4 gap-4
                 dark:text-gray-200
                 ${className}
             `}>

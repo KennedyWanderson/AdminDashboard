@@ -4,12 +4,12 @@ export default function MenuItem({ texto, icone, url, className, onClick }) {
         return (
             <div className={`
                 flex justify-center items-center
-                h-20 w-56 gap-4
+                h-20 w-20 gsa
                 dark:text-gray-200
                 ${className}
             `}>
                 {icone}
-                <span className="text-lg font-light">
+                <span className="text-xs font-light">
                     {texto}
                 </span>
             </div>
