@@ -37,10 +37,8 @@ export default function Header({ titulo, subtitulo }) {
                         name="search"
                         id="search"
                         className="w-full rounded-full py-2 px-6"
-                    >
-                        
-                    </input>
-                    <div className="absolute inset-y-0 px-4 right-0 flex items-center rounded-r-full bg-gradient-to-r from-indigo-500 to-purple-800 cursor-pointer">
+                    />
+                    <div className="absolute  px-4 right-0 flex items-center rounded-r-full bg-gradient-to-r from-indigo-500 to-purple-800 cursor-pointer">
                         {IconeSearch}
                     </div>
                 </div>

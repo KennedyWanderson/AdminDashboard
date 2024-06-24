@@ -22,10 +22,15 @@ export default function Header({ titulo, subtitulo }) {
             </div>
             <header className="flex flex-grow justify-center text-white">
                 <nav className=" justify-center" aria-label="Global">
+
                     <div className="hidden lg:flex lg:gap-x-12">
+
                         <a href="#" className="order-first text-xl font-bold flex items-center gap-10 italic tracking-tight text-white sm:text-3xl">NETLinks {IconeAcademic}</a>
                     </div>
+
+
                 </nav>
+
             </header>
           
                 <div className="relative mt-2 ">
@@ -36,10 +41,8 @@ export default function Header({ titulo, subtitulo }) {
                         type="text"
                         name="search"
                         id="search"
-                        className="w-full rounded-full py-2 px-6"
-                    >
-                        
-                    </input>
+                        className="w-full border-none rounded-full py-2 px-6"
+                    />
                     <div className="absolute inset-y-0 px-4 right-0 flex items-center rounded-r-full bg-gradient-to-r from-indigo-500 to-purple-800 cursor-pointer">
                         {IconeSearch}
                     </div>

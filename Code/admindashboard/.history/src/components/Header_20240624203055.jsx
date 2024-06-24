@@ -27,24 +27,24 @@ export default function Header({ titulo, subtitulo }) {
                     </div>
                 </nav>
             </header>
-          
-                <div className="relative mt-2 ">
-                    <div className=" absolute inset-y-0 left-0 flex items-center pl-3">
-                        <span className="text-gray-500 sm:text-sm">Search </span>
-                    </div>
-                    <input
-                        type="text"
-                        name="search"
-                        id="search"
-                        className="w-full rounded-full py-2 px-6"
-                    >
-                        
-                    </input>
+
+            <div className="relative mt-2 ">
+                <div className=" absolute inset-y-0 left-0 flex items-center pl-3">
+                    <span className="text-gray-500 sm:text-sm">Search </span>
+                </div>
+                <input
+                    type="text"
+                    name="search"
+                    id="search"
+                    className="w-full rounded-full py-2 px-6"
+                >
                     <div className="absolute inset-y-0 px-4 right-0 flex items-center rounded-r-full bg-gradient-to-r from-indigo-500 to-purple-800 cursor-pointer">
                         {IconeSearch}
                     </div>
-                </div>
-            
+                </input>
+
+            </div>
+
 
             <div className={`flex flex-grow justify-end items-center gap-8`}>
 

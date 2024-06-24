@@ -11,7 +11,7 @@ export default function LateralMenu({ setActiveComponent }) {
             dark:bg-gray-900
         `}>
             <div className={`
-                flex flex-col items-center justify-center font-bold italic text-2xl
+                flex flex-col items-center justify-center font-bold italic text
                 bg-gradient-to-r from-indigo-500 to-purple-800
                 h-20 w-40
             `}>
